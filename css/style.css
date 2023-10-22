@@ -1160,7 +1160,7 @@ figure {
     height: 70px;
 }
 
-.hero-title {
+.hero-title h1 {
     display: flex;
     max-width: 320px;
     font-weight: 700;
@@ -1170,6 +1170,23 @@ figure {
     text-align: center;
     margin: 0 auto 72px;
 }
+
+.features-icon {
+    display: none;
+}
+
+.features-item {
+    width: 100%;
+    min-height: 720px;
+    gap: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.features-item-title
+
+
 
 
 

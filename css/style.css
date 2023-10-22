@@ -1175,7 +1175,7 @@ figure {
     display: none;
 }
 
-.features-item {
+.features-list {
     width: 100%;
     min-height: 120px;
     gap: 24px;
@@ -1200,7 +1200,19 @@ figure {
     align-items: center;
     flex-direction: column;
     gap: 72px;
+}
 
+.team-item {
+    margin: 0;    
+}
+
+.customers-logo {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 72px 16px;
 }
     
 

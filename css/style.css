@@ -1140,7 +1140,7 @@ figure {
 
 @media only screen and (min-width:428px) and (max-width: 767px) {
     .container {
-        width: 775px;
+        width: 428px;
         margin: 0 auto;
     }
 }
@@ -1161,7 +1161,7 @@ figure {
 }
 
 .hero-title h1 {
-    display: flex;
+    display: block;
     max-width: 320px;
     font-weight: 700;
     font-size: 36px;
@@ -1177,15 +1177,32 @@ figure {
 
 .features-item {
     width: 100%;
-    min-height: 720px;
+    min-height: 120px;
     gap: 24px;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
 }
 
-.features-item-title
+.features-item-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+}
 
+.team-list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 72px;
+
+}
+    
 
 
 

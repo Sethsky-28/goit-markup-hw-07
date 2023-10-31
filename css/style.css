@@ -221,6 +221,122 @@ figure {
     transition: transform 250ms var(--timing-function);
 }
 
+.menu-container.is-open {
+    transform: translateX(0);
+}
+
+.hamburger-close-button {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+
+    background-color: var(--cornflower, #e7e9fc);
+    color: var(--navyblue, #2e2f42);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    cursor: pointer;
+
+    transition: background-color 250ms var(--timing-function),
+        color 250ms var(--timing-function);
+}
+
+.hamburger-close-button:hover,
+.hamburger-close-button:focus {
+    background-color: var(--ocean);
+    color: var(--white);
+}
+
+.hamburger-menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.hamburger-menu-item {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+}
+
+.hamburger-menu-link {
+    transition: color 250ms var(--timing-function);
+    color: var(--navyblue);
+}
+
+.hamburger-menu-link.menu-active,
+.hamburger-menu-link:hover,
+.hamburger-menu-link:focus {
+    color: var(--ocean);
+}
+
+.hamburger-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.hamburger-address {
+    color: var(--slate);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+
+.hamburger-address-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.hamburger-address-link {
+    color: inherit;
+    transition: color 250ms var(--timing-function);
+}
+
+.hamburger-address-link:hover,
+.hamburger-address-link:focus {
+    color: var(--ocean);
+}
+
+.highlight {
+    color: var(--iris);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+}
+
+.hamburger-social-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hamburger-social-link {
+    background-color: var(--iris);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--cloud);
+    transition: background-color 250ms var(--timing-function);
+}
+
+.hamburger-social-link:hover,
+.hamburger-social-link:focus {
+    background-color: var(--ocean);
+}
+
+.hamburger-social-icon {
+    fill: currentColor;
+}
 
 
 

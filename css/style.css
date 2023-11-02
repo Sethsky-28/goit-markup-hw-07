@@ -1319,15 +1319,22 @@ figure {
         letter-spacing: 1.12px;
     }
 
-    @media (min-device-pixel-ratio: 2),
-        (min-resolution: 192dpi),
-        (min-resolution: 2dppx) {
-        background-image: 
-            url("../images/hero-tablet.jpg");
-            linear-gradient(rgba(46, 47, 66, 0.7),
-                    rgba(46, 47, 66, 0.7));
-        }
 
+
+    @media screen and (min-width: 768px) {
+        padding: 112px 0;
+        background-image: url(../images/hero-tablet.jpg");
+        linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7));
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        background-image: url("../images/hero-tablet.jpg");
+        linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7));
+    }
 
 
 

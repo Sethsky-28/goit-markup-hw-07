@@ -1319,9 +1319,7 @@ figure {
         letter-spacing: 1.12px;
     }
 
-
-
-    @media screen and (min-width: 768px) {
+    /* @media screen and (min-width: 768px) {
         padding: 112px 0;
         background-image: url(../images/hero-tablet.jpg");
         linear-gradient(rgba(46, 47, 66, 0.7),
@@ -1334,7 +1332,57 @@ figure {
         background-image: url("../images/hero-tablet.jpg");
         linear-gradient(rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7));
+    } */
+
+    .features-list {
+        flex-direction: row;
+        gap: 72px 24px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
     }
+
+    .features-item {
+        width: calc((100% - 24px) / 2);
+    }
+
+    .features-item-title {
+        text-align: left;
+     }
+
+     .container-footer {
+        text-align: left;
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 72px;
+     }
+
+     .footer-icons {
+        justify-content: flex-start;
+     }
+
+    
+    .subscribe-form {
+        flex-direction: row;
+        gap: 24px;
+        
+    }
+
+    .subscribe-form-input {
+        width: 264px;
+    }
+
+    /* .form-label {
+        display: flex;
+        flex-direction: column;
+    } */
+
+    /* .button-subscribe {
+        margin-top: 30px;
+    } */
+
+    
 
 
 

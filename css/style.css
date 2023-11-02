@@ -739,6 +739,7 @@ figure {
 }
 
 .subscribe-form-input {
+    margin-top: 16px;
     font-size: 12 px;
     font-weight: 400;
     line-height: 2;
@@ -1271,5 +1272,67 @@ figure {
 }
 
 /* Media Queries */
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+    .nav-list {
+        display: flex;
+        gap: 24px;
+        /* margin-left: 120px; */
+    }
+
+    .address {
+        display: block;
+    }
+        
+    .menu-toggle {
+        display: none;
+    }
+
+    /* .address-list {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    } */
+        
+    .address-link {
+        padding: 0;
+    }
+
+    .address-item {
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.48px;
+    }
+
+    .section-hero {
+        padding: 188px 0;
+    }
+
+    .hero-title {        
+        font-size: 56px;
+        line-height: 1.07em;
+        letter-spacing: 1.12px;
+    }
+
+    @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        background-image: 
+            url("../images/hero-tablet.jpg");
+            linear-gradient(rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7));
+        }
+
+
+
+
+
+
+
 
 
